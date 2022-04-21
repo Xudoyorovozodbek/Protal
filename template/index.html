@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portal</title>
+<style>
+    .chapqul{
+        width: 500px;
+        position:absolute;
+        border:  5px solid black;
+        padding: 10px 10px;
+    }
+    .ungqul{
+        left: 700px;
+        width: 500px;
+        position:absolute;
+        background-color: aqua;
+    }
+  
+    #tooltip {
+  position: relative;
+}
+
+#tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+#tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+</head>
+
+<body>
+    
+    
+<div class="container" style="margin: 0 auto;position: relative;">
+
+<div class="chapqul">
+    <form action="/action_page.php">
+        <div class="form-group" >
+          <label for="usr">Name:</label>
+          
+          <i class="fa fa-question-circle" id="tooltip"><span class="tooltiptext">Faqat ism kiriting!</span></i>
+          <input type="text" class="form-control"  name="username">
+          
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="file" class="form-control" id="pwd" name="password">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" name="password">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" name="password">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" name="password">
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+<div class="ungqul">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima distinctio, facere odio nulla autem veritatis molestias aut repudiandae blanditiis voluptatibus praesentium voluptate impedit omnis laborum iure fugiat sint corporis? Labore?
+</div>
+   
+  </div>
+  
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
